@@ -1,10 +1,4 @@
-$font-main: 'Poppins', sans-serif;
-$font-second: 'Teko', sans-serif;
-$background-color: white;
-$violet-dark: #381487;
-$light-blue: #42c1ba;
-$dark-blue: #194c66;
-$lilac: #905FD0;
+
 
 .body{
     font-family: $font-main;
@@ -127,13 +121,6 @@ $lilac: #905FD0;
     padding-bottom: 2%;
 }
 
-@mixin flex ($direccion, $justify, $align) {
-
-    display: flex;
-    flex-direction: $direccion;
-    justify-content: $justify;
-    align-items: $align;
-}
 
 .beneficiosLista {
     display: list-item;
@@ -167,6 +154,7 @@ $lilac: #905FD0;
 
         background-color: $dark-blue;
         padding: 5%;
+        grid-template-columns: auto;
     }
 }
 
@@ -201,4 +189,4 @@ footer {
 
 
 
-
+@import "variables"

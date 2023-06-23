@@ -1,20 +1,3 @@
-$font-main: 'Poppins', sans-serif;
-$font-second: 'Teko', sans-serif;
-$background-color: white;
-$violet-dark: #381487;
-$light-blue: #42c1ba;
-$dark-blue: #194c66;
-$lilac: #905FD0;
-
-@mixin flex ($direccion, $justify, $align) 
-{
-
-    display: flex;
-    flex-direction: $direccion;
-    justify-content: $justify;
-    align-items: $align;
-}
-
 .tituloNosotros {
     padding-bottom: 2%;
     padding-left: 10%;
@@ -93,3 +76,5 @@ $lilac: #905FD0;
     margin-right: 30%;
     
 }
+
+@import "variables"
