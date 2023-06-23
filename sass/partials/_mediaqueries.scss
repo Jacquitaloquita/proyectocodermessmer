@@ -1,0 +1,285 @@
+@media (max-width: 500px) {
+
+    /*MAIN*/
+    .TituloIndex {
+        font-size: 200%;
+    }
+
+    .BajadaIndex {
+        font-size: 125%;
+    }
+
+    .btn-primary {
+        font-size: 100%;
+
+        
+    }
+
+    
+
+
+    .bannersInfo {
+        font-size: 90%;
+    }
+
+    .grid-container {
+
+        grid-row-gap: 20px;
+        justify-items: center;
+        grid-template-columns: none;
+        grid-column-gap: 0px;
+        grid-template-areas:
+            "section-1"
+            "section-2"
+            "section-3"
+
+    }
+
+    #section-1 {
+        grid-area: section-1;
+    }
+
+    #section-2 {
+        grid-area: section-2;
+    }
+
+    #section-3 {
+        grid-area: section-3;
+    }
+
+    .bannersInfo {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+    }
+
+    .beneficiosTitulo {
+        font-size: 150%;
+    }
+
+    .beneficiosLista {
+        font-size: 100%;
+    }
+
+
+
+    .columnTestimonio {
+
+
+        width: 100%;
+
+    }
+
+    .grid-container-testimonios {
+
+        grid-row-gap: 20px;
+        justify-items: center;
+        grid-template-columns: none;
+        grid-column-gap: 0px;
+        margin: 5%;
+
+        grid-template-areas:
+            "section-t-1"
+            "section-t-2"
+            "section-t-3"
+
+    }
+
+
+    #section-t-1 {
+        grid-area: section-t-1;
+    }
+
+    #section-t-2 {
+        grid-area: section-t-2;
+    }
+
+    #section-t-3 {
+        grid-area: section-t-3;
+    }
+
+    .grid-item-testimonios {
+        border-radius: 5%;
+    }
+
+    /*CONTACTO*/
+
+    .grid-item-contacto {
+        grid-template-columns: repeat(1, 2fr);
+        grid-template-rows: 50px;
+        padding-top: 2%;
+
+
+    }
+
+    /*NOSOTROS*/
+
+    .grid-container-nosotros {
+        grid-template-areas:
+            "parrafo"
+            "imagenGabi";
+    }
+
+
+    #parrafo {
+
+        grid-area: parrafo;
+    }
+
+    #imagenGabi {
+
+        grid-area: imagenGabi;
+    }
+
+    .imgNosotros {
+
+        width: 100%;
+    }
+
+}
+
+
+@media (min-width:500px) and (max-width:768px) {
+
+
+
+    /*MAIN*/
+    .TituloIndex {
+        font-size: 200%;
+    }
+
+    .BajadaIndex {
+        font-size: 125%;
+    }
+
+    .btn-primary {
+        font-size: 100%;
+        
+    }
+   
+    
+   
+
+
+
+    .bannersInfo {
+        font-size: 90%;
+    }
+
+    .grid-container {
+
+        grid-row-gap: 20px;
+        justify-items: center;
+        grid-template-columns: none;
+        grid-column-gap: 0px;
+        grid-template-areas:
+            "section-1"
+            "section-2"
+            "section-3"
+
+
+    }
+
+    #section-1 {
+        grid-area: section-1;
+    }
+
+    #section-2 {
+        grid-area: section-2;
+    }
+
+    #section-3 {
+        grid-area: section-3;
+    }
+
+    .bannersInfo {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+    }
+
+    .beneficiosTitulo {
+        font-size: 150%;
+    }
+
+    .beneficiosLista {
+        font-size: 100%;
+    }
+
+
+
+    .columnTestimonio {
+
+
+
+        width: 100%;
+
+    }
+
+    .grid-container-testimonios {
+
+        grid-row-gap: 20px;
+        justify-items: center;
+        grid-template-columns: none;
+        grid-column-gap: 0px;
+        margin: 5%;
+
+        grid-template-areas:
+            "section-t-1"
+            "section-t-2"
+            "section-t-3"
+
+    }
+
+
+    #section-t-1 {
+        grid-area: section-t-1;
+    }
+
+    #section-t-2 {
+        grid-area: section-t-2;
+    }
+
+    #section-t-3 {
+        grid-area: section-t-3;
+    }
+
+    .grid-item-testimonios {
+        border-radius: 5%;
+    }
+
+    /*CONTACTO*/
+
+    .grid-item-contacto {
+        grid-template-columns: repeat(1, 2fr);
+        grid-template-rows: 50px;
+        padding-top: 2%;
+
+
+    }
+
+    /*NOSOTROS*/
+
+    .grid-container-nosotros {
+        grid-template-areas:
+            "parrafo"
+            "imagenGabi";
+    }
+
+
+    #parrafo {
+
+        grid-area: parrafo;
+    }
+
+    #imagenGabi {
+
+        grid-area: imagenGabi;
+    }
+
+    .imgNosotros {
+
+        width: 100%;
+    }
+
+}

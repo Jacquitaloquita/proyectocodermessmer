@@ -1,0 +1,204 @@
+$font-main: 'Poppins', sans-serif;
+$font-second: 'Teko', sans-serif;
+$background-color: white;
+$violet-dark: #381487;
+$light-blue: #42c1ba;
+$dark-blue: #194c66;
+$lilac: #905FD0;
+
+.body{
+    font-family: $font-main;
+}
+
+//header
+.menuTabs {
+    font-weight: bolder;
+    color: $light-blue;
+    font-size: 150%;
+    font-family:$font-second ;
+    text-decoration: none;
+    text-align: right;
+
+    &:hover {
+        color: $lilac;
+
+    }
+
+
+}
+
+//Hero
+
+.banerHero {
+    background-image: url("img/banner-hero.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 2%;
+
+    .TituloIndex {
+
+        text-align: center;
+        font-size: 250%;
+        color: white;
+        font-weight: 1500;
+        padding-top: 10%;
+    
+     
+    }
+
+    .BajadaIndex {
+        font-size: 150%;
+        top: 50%;
+        left: 50%;
+        padding-top: 2%;
+        padding-bottom: 1%;
+        color: white;
+    }
+
+    .btn-primary {
+        background-color: $lilac;
+        font-family: $font-main;
+        font-weight: bolder;
+        font-size: 120%;
+        border: none;
+    
+        &:hover {
+            background-color: $light-blue;
+        }
+    }
+}
+
+
+
+
+
+
+//banners residencias
+
+.grid-container {
+    display: grid;
+    height: 30%;
+    padding: 10px;
+    margin: 15px;
+    margin-left: 3%;
+    text-align: center;
+    border-radius: 15PX;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px;
+    grid-column-gap: 30px;
+    padding-top: 3%;
+    .grid-item {
+        grid-template-columns: auto;
+        background-color: $light-blue;
+        border-radius: 12px;
+    }
+    
+
+}
+
+
+.bannersInfo {
+    text-align: center;
+    color: $violet-dark;
+
+   
+}
+
+.tituloInfo {
+    font-weight: bolder;
+    font-size: 150%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    color: $violet-dark;
+
+
+}
+
+//beneficios
+
+.beneficiosTitulo {
+    text-align: center;
+    font-size: 170%;
+    font-weight: 1200;
+    color: $violet-dark;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+@mixin flex ($direccion, $justify, $align) {
+
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+.beneficiosLista {
+    display: list-item;
+    @include flex (column, center, center);
+    flex-wrap: wrap;
+    font-size: 120%;
+    font-weight: 500;
+    color: $violet-dark;
+    list-style-position: outside;
+    list-style-image: url("img/lista.png");
+    padding-bottom: 5%;
+
+    .li {
+        padding-top: 2%;
+    }
+
+}
+
+//testimonios 
+
+.grid-container-testimonios {
+    display: grid;
+    height: 40%;
+    text-align: center;
+    border-radius: 15PX;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px;
+    padding-top: 0%;
+
+    .grid-item-testimonios {
+
+        background-color: $dark-blue;
+        padding: 5%;
+    }
+}
+
+.nombreTestimonio {
+    font-weight: bolder;
+    font-size: 100%;
+    color: white;
+
+}
+
+.pTestimonio {
+    @extend .nombreTestimonio
+}
+
+
+footer {
+    font-weight: bold;
+    font-size: 150%;
+    text-align: right;
+    margin-right: 3%;
+    color: $violet-dark;
+    font-family: 'Teko', sans-serif;
+    padding-top: 3%;
+
+
+}
+
+.facebook {
+    padding-right: 2%;
+    padding-bottom: 3%;
+}
+
+
+
+

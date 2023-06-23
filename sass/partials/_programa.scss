@@ -1,0 +1,49 @@
+$font-main: 'Poppins', sans-serif;
+$font-second: 'Teko', sans-serif;
+$background-color: white;
+$violet-dark: #381487;
+$light-blue: #42c1ba;
+$dark-blue: #194c66;
+$lilac: #905FD0;
+
+
+.tituloPrograma {
+
+    text-align: center;
+    background-image: url("img/banner-hero-fq.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 120%;
+    padding: 10%;
+
+    .pPrograma {
+        color: white;
+        text-align: center;
+        font-weight: 600;
+    }
+}
+
+
+
+
+
+.bloques {
+    margin-left: 10%;}
+
+    .h3Programa {
+        padding: 1%;
+        color: $light-blue;
+        text-decoration: none;
+    }
+
+
+    .h2Programa  {
+        padding-top: 5%;
+        color: $dark-blue;
+        font-size: 200%;
+        text-decoration: underline;
+    }
+       
+  

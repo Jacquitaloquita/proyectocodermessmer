@@ -1,0 +1,95 @@
+$font-main: 'Poppins', sans-serif;
+$font-second: 'Teko', sans-serif;
+$background-color: white;
+$violet-dark: #381487;
+$light-blue: #42c1ba;
+$dark-blue: #194c66;
+$lilac: #905FD0;
+
+@mixin flex ($direccion, $justify, $align) 
+{
+
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+.tituloNosotros {
+    padding-bottom: 2%;
+    padding-left: 10%;
+    color: $violet-dark;
+
+}
+
+
+.Nosotros {
+
+    margin-left: 10%;
+    margin-right: 10%;
+    color: $violet-dark;
+    font-size: medium;
+
+
+}
+.grid-container-nosotros {
+
+    display: grid;
+    grid-template-areas: "parrafo imagenGabi";
+}
+
+#parrafo {
+
+    grid-area: parrafo;
+}
+
+#imagenGabi {
+
+    grid-area: imagenGabi;
+}
+
+.imgNosotros {
+
+
+
+    width: 65%;
+    border-radius: 20px;
+    margin: 5%;
+
+}
+
+.beneficios {
+    padding-top: 5%;
+    text-align: center;
+}
+
+.h2Beneficios {
+
+    color: $dark-blue;
+    text-align: center;
+
+}
+
+.ulBeneficios {
+    display: list-item;
+    flex-wrap: wrap;
+    @include flex(column, center, center);
+    color: $violet-dark;
+   
+    text-align: center;
+    font-size: 120%;
+    list-style-position: outside;
+    list-style-image: url("img/beneficios.png");
+
+}
+
+.hrNosotros {
+
+    height: 3px;
+    background-color: $light-blue;
+    color: $light-blue;
+    border-width: 0;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}

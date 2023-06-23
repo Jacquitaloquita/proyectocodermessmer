@@ -1,0 +1,52 @@
+$font-main: 'Poppins', sans-serif;
+$font-second: 'Teko', sans-serif;
+$background-color: white;
+$violet-dark: #381487;
+$light-blue: #42c1ba;
+$dark-blue: #194c66;
+$lilac: #905FD0;
+
+
+.bannerHeroFaqs {
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/faqs.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 120%;
+    padding: 10%;
+
+
+}
+
+
+.acordeon {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 1%;
+    padding-right: 1;
+
+    .accordion-body {
+
+        color: $violet-dark;
+    }
+
+}
+
+
+    
+
+.accordion-button {
+    color:$violet-dark;
+    font-size: 60%;
+    font-weight: bold;
+
+    &.accordion-button:not(.collapsed) {
+   
+        background-color:#6bd9d4;} 
+ 
+
+ } 
+
+ 

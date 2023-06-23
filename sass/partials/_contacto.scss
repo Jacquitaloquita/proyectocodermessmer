@@ -1,0 +1,49 @@
+$font-main: 'Poppins', sans-serif;
+$font-second: 'Teko', sans-serif;
+$background-color: white;
+$violet-dark: #381487;
+$light-blue: #42c1ba;
+$dark-blue: #194c66;
+$lilac: #905FD0;
+
+.bannerContacto {
+    background-image: url("img/contacto.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 10%;
+}
+
+.contactanos {
+    font-size: 200%;
+}
+
+.bajadaContacto {
+    font-size: 100%;
+}
+
+.grid-item-contacto {
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 50px;
+    padding-top: 2%;
+    padding-left: 35%;
+    padding-right: 35%;
+    font-weight: 700;
+    color: $violet-dark ;
+
+}
+
+.boton-enviar {
+
+    background-color: $light-blue;
+    border-radius: 12px;
+    color: $dark-blue;
+    font-family: $font-main;
+    font-weight: 700;
+    border: none;
+}
+
