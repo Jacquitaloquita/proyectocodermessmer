@@ -49,6 +49,7 @@
         padding-top: 2%;
         padding-bottom: 1%;
         color: white;
+        background-color: $lilac;
     }
 
     .btn-primary {
@@ -113,7 +114,8 @@
 //beneficios
 
 .beneficiosTitulo {
-    text-align: center;
+    text-align: justify;
+
     font-size: 170%;
     font-weight: 1200;
     color: $violet-dark;
