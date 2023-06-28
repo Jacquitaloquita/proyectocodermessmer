@@ -150,6 +150,7 @@
     border-radius: 15PX;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 200px;
+    grid-template-areas: "section-t-1 section-t-2 section-t-3";
     padding-top: 0%;
 
     .grid-item-testimonios {
@@ -157,6 +158,18 @@
         background-color: $dark-blue;
         padding: 5%;
         grid-template-columns: auto;
+    }
+
+    #section-t-1{
+        grid-area: section-t-1;
+    }
+
+    #section-t-2{
+        grid-area: section-t-2;
+    }
+
+    #section-t-3{
+        grid-area: section-t-3;
     }
 }
 

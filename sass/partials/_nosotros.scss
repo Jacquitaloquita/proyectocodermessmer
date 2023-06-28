@@ -19,6 +19,8 @@
 
     display: grid;
     grid-template-areas: "parrafo imagenGabi";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
 }
 
 #parrafo {
