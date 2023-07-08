@@ -39,6 +39,14 @@
     font-family: $font-main;
     font-weight: 700;
     border: none;
+    font-size: 120%;
+    &:hover {
+        background-color: $violet-dark;
+        color: $lilac;
+        font-size: 110%;
+        transition:  2s;
+
+               }
 }
 
 @import "variables"

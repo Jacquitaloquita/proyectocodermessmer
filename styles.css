@@ -40,12 +40,21 @@
   padding-bottom: 1%;
   color: white;
   } 
+
+  @keyframes example {
+    from {background-color:#42c1ba;}
+    to {background-color:#905FD0;}
+  }
+  
 .banerHero .btn-primary {
   background-color: #905FD0;
   font-family: "Poppins", sans-serif;
   font-weight: bolder;
   font-size: 120%;
   border: none;
+  animation-name: example;
+  animation-duration: 2s;
+  transition: 2s;
 }
 .banerHero .btn-primary:hover {
   background-color: #42c1ba;
@@ -72,6 +81,7 @@
   grid-template-columns: auto;
   background-color: #42c1ba;
   border-radius: 12px;
+ 
 
 }
 
@@ -115,6 +125,7 @@
   padding-top: 2%;
 }
 
+
 .grid-container-testimonios {
   display: grid;
   height: 40%;
@@ -127,6 +138,7 @@
 .grid-container-testimonios .grid-item-testimonios {
   background-color: #194c66;
   padding: 5%;
+ 
 }
 
 .nombreTestimonio, .pTestimonio {
@@ -186,6 +198,15 @@ footer {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   border: none;
+  font-size: 100%;
+}
+
+.boton-enviar:hover{
+  background-color: #381487;
+font-size: 110%;
+transition: 2s;
+  color: #42c1ba;
+ 
 }
 
 .tituloPrograma {

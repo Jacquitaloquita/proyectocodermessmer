@@ -56,12 +56,19 @@
   
     }
 
+    @keyframes example {
+        from {background-color:#42c1ba;}
+        to {background-color:#905FD0;}
+      }
     .btn-primary {
         background-color: $lilac;
         font-family: $font-main;
         font-weight: bolder;
         font-size: 120%;
         border: none;
+        animation-name: example;
+        animation-duration: 2s;
+        transition: 2s;
         
         &:hover {
             background-color: $light-blue;
