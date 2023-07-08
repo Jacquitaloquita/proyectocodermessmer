@@ -49,7 +49,11 @@
 }
 .banerHero .btn-primary:hover {
   background-color: #42c1ba;
+  font-size: 130%;
+  transition:  0.5s;
 }
+
+
 
 .grid-container {
   display: grid;
@@ -68,6 +72,7 @@
   grid-template-columns: auto;
   background-color: #42c1ba;
   border-radius: 12px;
+
 }
 
 .bannersInfo {

@@ -32,12 +32,15 @@
     padding-bottom: 2%;
 
     .TituloIndex {
-
+     
         text-align: center;
         font-size: 250%;
         color: white;
         font-weight: 1500;
         padding-top: 10%;
+    
+  
+      
     
      
     }
@@ -50,6 +53,7 @@
         padding-bottom: 1%;
         color: white;
         background-color: $lilac;
+  
     }
 
     .btn-primary {
@@ -58,10 +62,15 @@
         font-weight: bolder;
         font-size: 120%;
         border: none;
-    
+        
         &:hover {
             background-color: $light-blue;
-        }
+            font-size: 130%;
+            transition:  0.5s;
+    
+                   }
+
+                
     }
 }
 
@@ -71,6 +80,8 @@
 
 
 //banners residencias
+
+
 
 .grid-container {
     display: grid;
@@ -88,6 +99,7 @@
         grid-template-columns: auto;
         background-color: $light-blue;
         border-radius: 12px;
+        animation-name: efecto;
     }
     
 
